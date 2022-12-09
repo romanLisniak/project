@@ -1,0 +1,114 @@
+.header{
+    padding-bottom: 50;
+    position: relative;
+
+    .head_logo{
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    h5{
+        font-size: 35px;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .link-min{
+        font-size: 25px;
+        margin-bottom: 25px;
+        padding-left: 70px;
+        a{
+            padding: 0 15px;
+            color: gray;
+
+        }
+    }
+    .dop{
+        a{
+            font-size: 25px;
+            line-height: 50px;
+            color: rgb(178, 173, 173);
+        }
+    }
+}
+
+.general{
+        background: url('../img/dor.jpg') center center no-repeat ;
+        height: 800px;
+        padding-top: 200px;
+        .text{
+            text-align: center;
+            background-color: rgb(232, 224, 224, .4);
+            .text1{
+                font-weight: 800;
+                font-size: 50px;
+            }
+            p{
+                font-size: 30px;
+                font-weight: 700;
+                color: rgb(248, 248, 248);
+                word-spacing: 5px;
+                line-height: 45px;
+            }
+        }
+    }
+    .dopp{
+        background-color: rgb(47, 245, 47);
+    }
+    
+    .foto-block{
+        background-color: rgb(177, 167, 167, 0.5);
+        .dop{
+            img{
+                padding: 250px;
+            }
+        }
+    }
+
+    .haracteris{
+        background-color: rgba(134, 129, 129, 0.5);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h2{
+            font-size: 20px;
+            padding-left: 25px;
+            padding-bottom: 25px;
+        }
+        img{
+            width: 300px;
+            height: 350px;
+        }
+        .img1{
+            img{
+                width: 350px;
+                height: 200px;
+            }
+        }
+        .disp{
+            background-color: rgb(218, 165, 32, 0.2);
+            display: flex;
+            font-size: 18px;
+            padding: 15px 10px;
+            line-height: 25px;
+        }
+    }
+.contactus{
+    background-color: rgba(68, 62, 62, 0.5);
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    color: green;
+    img{
+        width: 250px;
+        height: 300px;
+        padding: 15px;
+    }
+    .text{
+        a{
+            color: rgb(34, 240, 113);
+        }
+    }
+}

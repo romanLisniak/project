@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Chevrolet</title>
+</head>
+    <body>
+        <div class="header" id="hed">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="head_logo" src="./img/lacetti_logo.png" alt="logo"></a>
+                  <div class="link-min container">
+                    <a href="#hed">Главная</a>
+                    <a href="#foto">Фото автомобиля</a>
+                    <a href="#har">Техничсекие характеристики</a>
+                    <a href="#fot">Контакты владельца</a>
+                  </div>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Chevrolet</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body dop">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="#hed">Главная</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#foto">Фото автомобиля</a>
+                          
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#har">Техничсекие характеристики</a>
+                          
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#fot">Контакты владельца</a>
+                          
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="general">
+            <div class="container">
+                <div class="text">
+                    <h1 class="text1">Немного о блоге:</h1>
+                    <p class="text2">Етот блог посвящён автомобилю, который был у меня всего год. 
+                        Мо моему скромному мнению, Chevrolet lacetti, один лучших автомобилей, в своём классе.
+                        Он выпускался в трёх разных кузовах. Я являлся счасливым обладателем кузова универсал в комплектации CDX.
+                        По етому, я смогу представить вам фото и техничсекие характеристики, данной модели в данной комплектации.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="foto-block" id="foto">
+            <div class="container dop">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/foto/1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="./img/foto/2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="./img/foto/3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon dopp" aria-hidden="true"></span>
+                      <span class="visually-hidden ">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon dopp" aria-hidden="true"></span>
+                      <span class="visually-hidden ">Next</span>
+                    </button>
+                  </div>
+        </div>
+        <div class="haracteris" id="har">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img"><img src="./img/foto/3.jpg" alt=""></div>
+                        <div class="text"><h2>Двигатель</h2>
+                            <ul>
+                                <li>Двигатель: 1.8i
+                                </li>
+                                <li>Тип двигателя: ДВС
+                                </li>
+                                <li>Тип топлива: Бензин
+                                </li>
+                                <li>Объем двигателя, куб.см: 1799
+                                </li>
+                                <li>Расположение цилиндров: Рядное
+                                </li>
+                                <li>Количество цилиндров: 4
+                                </li>
+                                <li>Количество клапанов: 16
+                                </li>
+                                <li>Степень сжатия: 9.8:1
+                                </li>
+                                <li>Мощность, л.с.: 122
+                                </li>
+                                <li>Обороты макс. мощности, об./мин.: 5800
+                                </li>
+                                <li>Крутящий момент, Нм: 165
+                                </li>
+                                <li>Обороты макс. момента, об./мин.: 4000
+                                </li>
+                            </ul></div>
+                    </div>
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img"><img src="./img/foto/1.JPG" alt=""></div>
+                        <div class="text"><h2>КПП</h2>
+                            <ul>
+                                <li>Коробка передач: Автомат
+                                </li>
+                                <li>Тип коробки передач: Механика
+                                </li>
+                                <li>Кол-во передач: 4
+                                </li>
+                                <li>Привод : Передний
+                                </li>
+                            </ul></div>
+                    </div>
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img"><img src="./img/foto/13.jpg" alt=""></div>
+                        <div class="text"> <h2>Пробег</h2>
+                        <ul>
+                            <li>
+                                190 000 km
+                            </li>
+                        </ul></div>
+                    </div>
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img1"><img src="./img/foto/24.jpg" alt=""></div>
+                        <div class="text">
+                            <h2>Год выпуска</h2>
+                        <ul>
+                            <li>
+                                2004 г.
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img1"><img src="./img/foto/16.jpg" alt=""></div>
+                        <div class="text">
+                            <h2>Вид топлива</h2>
+                            <ul>
+                                <li>Газ/Бензин</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 disp">
+                        <div class="img1"><img src="./img/foto/14.jpg" alt=""></div>
+                        
+                        <div class="text">
+                            <h2>Доп характеристики</h2>
+                            <ul>
+                            <li>Гидроусилитель</li>
+                            <li>Стеклоподъемники</li>
+                            <li>Кондиционер</li>
+                            <li>Электро Зеркала</li>
+                            <li>климат-контроль</li>
+                        </ul></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactus" id="fot">
+                    <div class="foto">
+                        <img src="./img/foto/Roman.jpg" alt="avtor">
+                    </div>
+                <div class="text">
+                    <h2>Lesnyak Roamn Andreevich</h2>
+                    <a href="tel:380951263745">+38 095 126 37 45</a>
+                </div>
+        </div>
+
+    </body>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>
